@@ -1,0 +1,26 @@
+{
+  "name": "mainboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "apollo-server-express": "^2.15.0",
+    "express": "^4.17.1",
+    "graphql": "^15.1.0",
+    "graphql-tag": "^2.10.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "dayjs": "^1.8.28",
+    "graphql-query-generator": "^0.5.5",
+    "nodemon": "^2.0.4"
+  }
+}
